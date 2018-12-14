@@ -1,0 +1,123 @@
+html,
+body,
+header,
+#intro{
+	height: 100%;
+	font-family: 'Comfortaa', cursive;
+}
+
+#intro{
+	 background: url('../img/landing.png')no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#intro .full-bg-img button{
+	width:200px;
+}
+
+.fill-height{
+	min-height:80%; 
+}
+
+.pic-container{
+	position:absolute;
+	top:85vh;
+}
+
+.logo{
+	width:17%;
+	right:28vh;
+}
+
+#examples{
+	background: url('../img/x.png')no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.ontop{
+	padding-top:280px;
+}
+
+#about img{
+	width:8vw;
+   -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+
+}
+
+.form-pic{
+	width:100%;
+}
+
+.nav-link{
+	font-size:14px;
+	padding-top:20px;
+	margin-right:30px;
+}
+.form-selector{
+	width:234px !important;
+	border-radius: 0 !important;
+}
+.x{
+	height: 10%;
+}
+
+.form-button{
+	border-radius: 40px;
+	width:100%;
+}
+
+.modal{
+	background: rgba(240, 248, 255, 0.30);
+}
+
+.forma{
+	margin:5%;
+}
+.forma button{
+	background-color: #33c07f !important;
+	margin:0;
+}
+#sub{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*container kada je ispod 600 px se ne skalira*/
+@media screen and (max-width: 450px) {
+  /*.caption {
+    width:80vh;
+  }*/
+  .logo{
+	width:40%;
+	right:18vh;
+}
+
+.caption-text{
+	font-size:16px;
+  }
+
+.caption-header{
+	font-size:26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+ .logo{
+	width:50%;
+	right:15vh;
+}
+	}
