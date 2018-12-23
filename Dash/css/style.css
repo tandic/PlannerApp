@@ -1,0 +1,216 @@
+
+html, body{
+	height:100%;
+	background-color: #F3F1FB;
+}
+
+#wrapper{
+	height:100%;
+	min-height: 100%;
+}
+
+#sidebar-wrapper{
+	height: 100%;
+	overflow-y: hidden;
+	background: #2C3E50;
+	padding:0;
+	margin:0;
+	width:80%;
+	background: #1a001a;
+
+}
+
+/*Main content css*/
+
+#page-content-wrapper{
+	height:100%;
+	
+}
+
+/*Sidebar Styling*/
+.sidebar-nav{
+	padding: 0;
+	list-style: none;
+
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.sidebar-nav li{
+	text-indent: 20px:
+	line-height: 40px;
+}
+
+.sidebar-nav li a{
+	display: flex;
+	flex-direction: column;
+	vertical-align: top;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #ddd;
+	height: 90px;
+	}
+
+.btn:hover{
+	background:#22B573;
+	border-radius: 0;
+}
+
+.img-cvr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:30%;
+  margin-bottom:30%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center right;
+}
+.phr{
+	margin-top: 0;
+	margin-bottom: 0;
+	width:60%;
+	background-color:white;
+}
+.sidebar-title{display:block;}
+
+.material-icons.md-48 { font-size: 48px; }
+
+.i1{
+	background: url('../img/icon1.png');
+	height: 39px;
+	width:39px;
+	display: block;
+}
+
+.i2{
+	background: url('../img/icon2.png');
+	height: 35px;
+	width:42px;
+	display: block;
+}
+
+.i3{
+	background: url('../img/icon3.png');
+	height: 37px;
+	width:55px;
+	display: block;
+}
+
+.i4{
+	background: url('../img/icon4.png');
+	height: 45px;
+	width:45px;
+	display: block;
+}
+
+.i5{
+	background: url('../img/icon5.png');
+	height: 48px;
+	width:48px;
+	display: block;
+}
+
+.sidebar-title{
+	font-family: 'Comfortaa', cursive;
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+.active {
+	background-color: #22B573; 
+	border-radius: 0;
+}
+
+.logout-d{
+	display: block;
+  	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: gray;
+    
+}
+
+.logout-d:hover{
+	color:#22B573;
+	text-decoration: none;
+}
+
+#calendar-wrapper{
+	background-color:white;
+	height: 100%;
+-webkit-box-shadow: 4px 2px 25px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 2px 25px -3px rgba(0,0,0,0.75);
+box-shadow: 4px 2px 25px -3px rgba(0,0,0,0.75);
+}
+
+.p-title{
+	margin-top:20px;
+	font-family: comfortaa;
+	font-size: 30px;
+}
+
+.card-header{
+	background-color:white!important;
+}
+
+.btn-default{
+	background-color: #22B573;
+	color:white;
+	border-radius: 30px;
+	font-size: 15px;
+	margin-top:20px;
+}
+
+.btn-default:hover{
+	border-radius: 30px;
+	font-size: 15px;
+	color:white;
+	-webkit-box-shadow: 0px 0px 16px -4px rgba(36,5,36,1);
+	-moz-box-shadow: 0px 0px 16px -4px rgba(36,5,36,1);
+	box-shadow: 0px 0px 16px -4px rgba(36,5,36,1);
+}
+#img-wrapper{
+	height:100%;
+	overflow-x:hidden;
+}
+
+#img-wrapper img{
+	height:100%;
+}
+
+.form-wrapper{
+	margin-top:80px;
+	display:block;
+	width: 60%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.form-i{
+	margin-top:60px;
+}
+
+.form-i .btn-default{
+	width:250px;
+}
+
+.left-c{
+	height:50%;
+}
+
+.left-c img{
+	width:100%;
+}
+
+.pic-wrapper img{
+	height:50%;
+}
+
+/*CALENDAR*/
+

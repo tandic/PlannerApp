@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Name</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" >
+  <link rel="stylesheet" href="Mini-Event-Calendar-Plugin-jQuery\src\mini-event-calendar.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/pg-calendar/src/css/pignose.calender.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js" defer></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js" defer></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js" defer></script>
+  <!-- Custom JS -->
+  <script type="text/javascript" src="js/script.js" defer></script> 
+
+  <script src="Mini-Event-Calendar-Plugin-jQuery\src\mini-event-calendar.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="wrapper" class="container-fluid">
+    <div class="row h-100">
+
+      <!--Sidebar-->
+      <div class="col-lg-1 nopadding">
+        <div id="sidebar-wrapper" >
+         <img src="img/profil.png" class="img-cvr" />
+          <ul class="sidebar-nav">
+            <li><a href="#" class="btn" onclick=""><span class="icon i1"></span><span class="sidebar-title">PLANER</span></a><hr class="phr"></li>
+            <li><a class="btn" href="#"><span class="icon i2"></span><span class="sidebar-title">NAPREDAK</span></a><hr class="phr"></li>
+            <li><a class="btn" href="#"><span class="icon i3"></span><span class="sidebar-title">JELOVNIK</span></a><hr class="phr"></li>
+            <li><a class="btn" href="#"><span class="icon i4"></span><span class="sidebar-title">VJEŽBE</span></a><hr class="phr"></li>
+            <li><a class="btn active" href="#"><span class="icon i5"></span><span class="sidebar-title">KORISNIK</span></a></li>
+          </ul>
+          <a class="logout-d" href="#">Logout</a>
+        </div>
+      </div>
+
+        <div id="page-content-wrapper" class="col-lg-7">
+            <div class="header">
+              
+              <h1 class="p-title">Korisnički podaci</h1>
+              <hr> 
+            </div>
+        <div class="form-wrapper">
+         <form>
+          <div class="form-group">
+            <label for="formInput1">Težina</label>
+            <input type="number" class="form-control" id="formInput1" placeholder="Unesite vašu težinu">
+          </div>
+          <div class="form-group">
+            <label for="formInput2">Visina</label>
+            <input type="number" class="form-control" id="formInput2" placeholder="Unesite vašu visinu">
+          </div>
+          <div class="form-group">
+            <label for="formInput3">Godine</label>
+            <input type="number" class="form-control" id="formInput3" placeholder="Unesite vaše godine">
+          </div>
+       <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">Rod:</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Muški
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Ženski
+                </label>
+              </div>
+            </div>
+          </div>
+       </fieldset>
+       <div class="col-auto form-i d-flex justify-content-center"">
+         <button type="submit" class="btn btn-default mb-2">Unesi</button>
+       </div>
+        </form>
+        </div>
+
+        </div>
+      
+        <div class="col-lg-4 nopadding">
+          <div id="img-wrapper">
+            <img src="img/workout.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+ </body>
+
+</html>
