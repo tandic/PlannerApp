@@ -11,7 +11,7 @@
     <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap css -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <link href="/css/app.css"  rel="stylesheet">
     <!-- MDB css -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
     <!-- Custom css -->
@@ -22,6 +22,7 @@
 </head>
 
 <body>
+ 
     <div id="intro" class="view">
       <!-- Nav -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent z-depth-0">
@@ -198,9 +199,9 @@
 
  <!-- Registracija/Prijava -->
 
-    <div class="modal fade form bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
+        <div class="modal-content" >
           <div class="row no-gutters">
                 <div class="col-md-5"><img class="form-pic" src="img/f1.jpg"></div>
                 <div class="col-md-7 justify-content-start">
@@ -446,14 +447,12 @@
   <!-- SCRIPTS -->
   <!-- JQuery -->
   <script type="text/javascript" src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="{{ asset('js/popper.min.js') }}"></script>
   <!-- Bootstrap core JavaScript -->
   <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="{{ asset('js/mdb.min.js') }}"></script>
   <!-- Custom JS -->
-  <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
+  <script type="text/javascript" src="{{ asset('js/wscript.js') }}"></script>
   
 </body>
 

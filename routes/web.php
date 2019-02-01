@@ -1,3 +1,4 @@
+
 <?php
 
 /*
@@ -15,8 +16,18 @@
 Route::get('/', 'WelcomeController@index')->name('index');
 
 Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/users/logout', 'Auth\LoginController@userLogout')->name('user.logout');
+Route::get('/home', 'HomeController@index')->name('user.home');
+Route::get('/user/logout', 'Auth\LoginController@userLogout')->name('user.logout');
+Route::get('/user', 'UserController@index')->name('user');
+Route::get('/workout', 'WorkoutController@index')->name('user.workout');
+Route::get('/workout/upper', 'WorkoutController@upper')->name('user.workout.upper');
+Route::get('/workout/lower', 'WorkoutController@lower')->name('user.workout.lower');
+Route::get('/progress', 'WorkoutController@progressIndex')->name('user.progress');
+Route::post('/user/submit', 'UserController@submit')->name('user.submit');
+Route::get('/menu', 'MenuController@index')->name('user.menu');
+Route::post('/menu/submit', 'StatController@submit')->name('user.stat.submit');
+
+
 
 
 //url rute za admina 

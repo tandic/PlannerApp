@@ -4,10 +4,12 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-
-require('./bootstrap');
-
 window.Vue = require('vue');
+require('v-calendar');
+require('./bootstrap');
+require('v-calendar/lib/v-calendar.min.css');
+
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -17,7 +19,7 @@ window.Vue = require('vue');
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('calendar', require('./components/Calendar.vue'));
 
 // const files = require.context('./', true, /\.vue$/i)
 
