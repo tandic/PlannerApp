@@ -21,6 +21,7 @@ class UserController extends Controller
 	        	'visina' => 'required',
 	        	'godine' => 'required'
 	        		]);
+	        
 	    	$tezina = $request->input('tezina');
  			$visina = $request->input('visina');
 			$godine = $request->input('godine');

@@ -85,19 +85,19 @@
             <div class="row mt-5">
 
           <div class="col-md-4 mb-4">
-            <i class="fa fa-calculator fa-2x green-text" aria-hidden="true"></i>
+              <img src="img/icon2.svg">
               <h4 class="my-4">Kuhinja</h4>
               <p>Izbacite iz kuhinje sve što nije hranjivo. Takve stvari u pravilu debljaju i vode u bolesti. Slatkiši, šećeri, konzervirana hrana, brašna, proizvodi od brašna, gazirana pića, umjetni sokovi, namazi... Potrudite se i pronađite u okolici ljude od kojih možete kupiti lokalne namirnice ili otiđite do tržnice. </p>
           </div>
 
           <div class="col-md-4 mb-4">
-             <i class="fa fa-calculator fa-2x green-text" aria-hidden="true"></i>
+              <img src="img/icon3.svg">
               <h4 class="my-4">Motivacija</h4>
               <p>Mislite na sutra. Tijelo treba njegu i kvalitetno gorivo baš kao i automobil kako bi vas još dugo služilo. Budete li već danas počeli paziti na to čime se hranite, višestruko će vam tijelo vratiti kada budete u poznim godinama.</p>
           </div>
 
           <div class="col-md-4 mb-4">
-             <i class="fa fa-calculator fa-2x green-text" aria-hidden="true"></i>
+            <img src="img/icon1.svg">
             <h4 class="my-4">Rekreacija</h4>
               <p>Što kvalitetnije budete jeli, imat ćete više energije. Iskoristite je za vlastito dobro. Možda ste posljednji put vježbali na satu tjelesnog prije nekoliko desteljeća. Nema veze - obujte tenisice, odjenite se u nešto udobno i izađite iz kuće. </p>
           </div>
@@ -121,10 +121,10 @@
 
         </div>
 
-      <div class="row mt-5 text-center">
+      <div class="row mt-5 text-center d-flex justify-content-center">
         
 
-          <div class="col-lg-4 col-md-4 mb-4">
+          <div class="col-lg-4 col-md-4 mb-4 card-wrap">
             <div class="card-body text-white bg-dark">
               <h5 class="card-title">Raznolikost</h5>
               <p class="card-text">Ne postoji čudotvorna hrana, svaka daje neke određene tvari. Na primjer, naranče sadrže vitamin C i ugljikohidrate, ali ne i željezo i proteine. Meso sadrži proteine i željezo no ne sadrži vitamin C i ugljikohidrate. Najviše benefita izvlačimo ako se hranimo raznoliko.</p>
@@ -132,7 +132,7 @@
           
           </div>
 
-         <div class="col-lg-4 col-md-4 mb-4">
+         <div class="col-lg-4 col-md-4 mb-4 card-wrap">
             <div class="card-body text-white bg-dark">
               <h5 class="card-title">Umjerenost</h5>
               <p class="card-text">Čak i čokolada i čips mogu naći mjesto u pravilnoj uravnoteženoj prehrani, ali u umjerenim količinama. Pokušajte rafinirani šećer i masti zamijeniti vrjednijim sastojcima. Umjesto masne kobasice i keksa, odaberite niskokalorični sendvič od tune bez tartara i sl.</p>
@@ -141,7 +141,7 @@
           </div>
 
 
-         <div class="col-lg-4 col-md-4 mb-4">
+         <div class="col-lg-4 col-md-4 mb-4 card-wrap">
             <div class="card-body text-white bg-dark">
               <h5 class="card-title">Potpunost</h5>
               <p class="card-text">Birajte prirodne ili lagano prerađene proizvode kad god možete. Umjesto bijelog kruha jedite integralni, svježe jabuke umjesto kompota od jabuka u konzervi, a kuhani krumpir umjesto čipsa. Prirodna hrana obično ima veću prehrambenu vrijednost i manje sumnjivih dodataka.</p>
@@ -213,7 +213,7 @@
                           <input type="radio" name="options" id="option2" autocomplete="off"> Registracija
                         </label>
                    </div>
-                    <div id="form" class="form-content d-flex justify-content-center mt-2 pt-2">
+                    <div id="form" class="form-content d-flex justify-content-center align-items-center mt-2 pt-2">
                        <div class="container forma" id="pr">
                            <form method="POST" action="{{ route('login') }}">
                               @csrf
@@ -312,7 +312,7 @@
 
           <!-- Grid column -->
           <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0">Get connected with us on social networks!</h6>
+            <h6 class="mb-0">Posjetite nas na društvenim mrežama!</h6>
           </div>
           <!-- Grid column -->
 
@@ -359,10 +359,11 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
           <!-- Content -->
-          <h6 class="text-uppercase font-weight-bold">Company name</h6>
+          <h6 class="text-uppercase font-weight-bold">Meni planner</h6>
           <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #6351ce;">
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud .</p>
 
         </div>
         <!-- Grid column -->
@@ -371,19 +372,19 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <h6 class="text-uppercase font-weight-bold">LOREM</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a href="#!">MDBootstrap</a>
+            <a href="#!">LoremIpsum</a>
           </p>
           <p>
-            <a href="#!">MDWordPress</a>
+            <a href="#!">LoremIpsum</a>
           </p>
           <p>
-            <a href="#!">BrandFlow</a>
+            <a href="#!">LoremIpsum</a>
           </p>
           <p>
-            <a href="#!">Bootstrap Angular</a>
+            <a href="#!">LoremIpsum</a>
           </p>
 
         </div>
@@ -393,19 +394,19 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <h6 class="text-uppercase font-weight-bold">Lorem Ipsum</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a href="#!">Your Account</a>
+            <a href="#!">LoremIpsum</a>
           </p>
           <p>
-            <a href="#!">Become an Affiliate</a>
+            <a href="#!">LoremIpsum</a>
           </p>
           <p>
-            <a href="#!">Shipping Rates</a>
+            <a href="#!">LoremIpsum</a>
           </p>
           <p>
-            <a href="#!">Help</a>
+            <a href="#!">LoremIpsum</a>
           </p>
 
         </div>
@@ -415,10 +416,10 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <h6 class="text-uppercase font-weight-bold">Kontakt</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+            <i class="fa fa-home mr-3"></i> Pula, PU 52100, HR</p>
           <p>
             <i class="fa fa-envelope mr-3"></i> info@example.com</p>
           <p>
@@ -436,7 +437,7 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
       <a href="https://mdbootstrap.com/education/bootstrap/"></a>
     </div>
     <!-- Copyright -->

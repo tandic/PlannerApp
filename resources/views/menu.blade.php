@@ -72,7 +72,7 @@
                 </div>
                 <div class="card-body">
                 <div id="meal-wrapper"  class="d-flex bd-highlight mb-4">
-                    <img src="{{$meal->picture}}" alt="..." class="img-thumb">
+                    <img src="img/meal1.jpg" alt="..." class="img-thumb">
                     <div class="d-flex flex-column">
                       <p><b>{{$meal->name }}</b></p>
                       <p class="card-text">{{$meal->description}}</p>

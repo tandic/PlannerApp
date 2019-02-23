@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
 html,
 body,
 header,
@@ -12,10 +14,20 @@ header,
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-position: 0 55%;
+	min-height: 100vh;
 }
 
+#features img {
+	height: 4rem;
+}
+
+.card-wrap {
+	max-width: 450px;
+}
+
+
 #intro .full-bg-img button{
-	
 	width:200px;
 }
 
@@ -282,7 +294,6 @@ box-shadow: 0px 3px 38px -18px rgba(0,0,0,0.34);
 	max-height:200px;
 }
 
-
 .work-inner .card-body img{
  width:100%;
  padding:0;
@@ -420,16 +431,22 @@ box-shadow: 0px 3px 38px -18px rgba(0,0,0,0.34);
 }
 
 .form-wrapper{
-	
 	width: 60%;
 	margin-left: auto;
     margin-right: auto;
     margin-top:7vh;
+}
 
+.c-pane-container {
+	max-height: 260px;
+}
+
+#form {
+	height: 85%;
 }
 
 .form-i{
-	margin-top:60px;
+	margin-top:10%;
 }
 
 .form-i .btn-default{
@@ -483,6 +500,7 @@ a:hover{
 
 #meal-wrapper img{
 	margin:10px;
+	height: 7rem;
 	border-radius:5px;
 }
 #meal-wrapper p{
@@ -490,10 +508,12 @@ a:hover{
 	margin-bottom:0;
 	margin-top:5px;
 }
-.content-p, .content-m .card{
+
+.content-m .card{
 	width:70%;
 	border-radius: 10px!important;
 }
+
 
 
 svg path {
@@ -532,9 +552,56 @@ svg{
 	padding-top:35px;
 }
 
+.pro-wrapper > .card{
+	width:93%;
+}
 
+.content-p .card-header p {
+	color: #4CC790;
+	margin: 0;
+}
 
+.content-p .card-header span {
+	color: gray;
+	padding-left: 4px;
+}
 
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 0.5;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 0.6;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+.percentage {
+  fill: lightgray;
+  font-family: sans-serif;
+  font-size: 4px;
+  text-anchor: middle;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
 
 
 

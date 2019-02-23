@@ -9,7 +9,7 @@
             </div>
             <div class="content-p">
               <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-7">
              @if(session('status'))
               
             <div id="success-alert" class="card border-success mb-3">
@@ -56,8 +56,42 @@
                 @endif
               </div>
               </div>
-              <div class="col-md-3">
-
+              <div class="col-md-5 pro-wrapper">
+                @if($cals)
+                <div class="card border-light">
+                   <div class="card-header">
+                      Današnji cilj: 
+                     <p class="float-right">{{ $cals }}<span>Kcal</span></p>
+                   </div>
+                   <div class="card-body">
+                        <!--  Container  -->
+                      <svg viewBox="0 0 36 36" class="circular-chart green">
+                      <path class="circle-bg"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      @if($stat)
+                      <path class="circle"
+                        stroke-dasharray="{{number_format($stat->datavalue, 0)}}, 100"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="19" y="20" class="percentage">{{number_format($stat->datavalue, 0)}}%</text>
+                      @else
+                       <path class="circle"
+                        stroke-dasharray="0, 100"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="19" y="20" class="percentage">0%</text>
+                      @endif
+                    </svg>
+                   </div>
+                </div>
+                @endif
               </div>
             </div>
 
@@ -72,13 +106,14 @@
                    <div class="card-body d-flex justify-content-center flex-column">
                     <p class="align-self-center" style="font-size:25px" id="dayName">PETAK</p>
                     <p class="align-self-center" style="font-size:55px" id="day">1</p>
-                   </div>
                   </div>
                  </div>
+               </div>
 
                  <div class="bd-highlight nopadding">
                  <div class="card border-dark bg-dark">
                    <div class="card-body">
+                    
                     <canvas id="myChart"></canvas>
                   </div>
                  </div>

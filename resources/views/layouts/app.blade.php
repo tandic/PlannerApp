@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
@@ -31,7 +31,9 @@
 
   <div id="wrapper" class="container-fluid">
      <!--Sidebar-->
+        @if(Auth::check())
         @include('includes.sidebar')
+        @endif
      <!--/Sidebar-->
      <!--MainContent-->
        
